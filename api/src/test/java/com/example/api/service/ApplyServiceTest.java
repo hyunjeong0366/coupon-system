@@ -31,7 +31,6 @@ class ApplyServiceTest {
     @Test
     public void 여러명응모() throws InterruptedException {
         int threadCount = 100;
-
         ExecutorService executorService = Executors.newFixedThreadPool(32);
         CountDownLatch latch = new CountDownLatch(threadCount);
 

@@ -15,11 +15,15 @@ public class Coupon {
     public Coupon() {
     }
 
-    public Coupon(Long id) {
-        this.id = id;
+    public Coupon(Long userId) {
+        this.userId = userId;
     }
 
     public Long getId() {
         return id;
+    }
+
+    public Long getUserId() {
+        return userId;
     }
 }
